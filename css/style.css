@@ -190,6 +190,12 @@ header ul.nav li a.contact:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+@media (max-width: 767px) {
+  header ul.nav li a.contact:hover {
+    background-color: var(--very-dark-grayish-blue);
+  }
+}
+
 header .list-shape {
   display: none;
   cursor: pointer;
